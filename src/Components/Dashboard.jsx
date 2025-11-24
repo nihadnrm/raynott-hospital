@@ -53,7 +53,7 @@ const Dashboard = () => {
 
         <div className="text-center sm:text-left">
           <h2 className="text-xl font-bold text-blue-800">
-            {user ? user.name : "Guest User"}
+            {user ? user.username : "Guest User"}
           </h2>
           <p className="text-gray-600 text-sm">{user?.email}</p>
           <p className="text-gray-600 mt-1 text-sm">
